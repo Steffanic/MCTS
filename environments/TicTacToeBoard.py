@@ -144,4 +144,4 @@ if __name__=="__main__":
     board = TicTacToeBoard((None,)*9, True, None, False)
     print(board.to_pretty_string())
     #play_game(number_of_games=1000, agent_A_rollouts=2, agent_B_rollouts=5, print_intermediate_info=True)
-    play_game(number_of_games=1, print_games=True, human_input=True, difficulty_level=250, print_intermediate_info=True)
+    play_game(number_of_games=5, print_games=True, human_input=True, difficulty_level=50, print_intermediate_info=True)
